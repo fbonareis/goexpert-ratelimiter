@@ -10,5 +10,5 @@ func NewWebSampleHandler() *WebSampleHandler {
 }
 
 func (h *WebSampleHandler) Handle(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Sample endpoint2!"))
+	w.Write([]byte("Sample endpoint response!"))
 }
